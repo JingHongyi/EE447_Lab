@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/BUTTON_AREA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.524"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/RED"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:background="#A4FA0303"
+                android:onClick="ButtonClick"
+                android:text="@string/red"
+                android:textSize="20sp"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <Button
+                android:id="@+id/BLUE"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:background="#436EEE"
+                android:onClick="ButtonClick"
+                android:text="@string/blue"
+                android:textSize="20sp"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/RED" />
+            <Button
+                android:id="@+id/GREEN"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:background="#32CD32"
+                android:onClick="ButtonClick"
+                android:text="@string/green"
+                android:textSize="20sp"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/BLUE" />
+            <Button
+                android:id="@+id/YELLOW"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:background="#FFFF00"
+                android:onClick="ButtonClick"
+                android:text="@string/yellow"
+                android:textSize="20sp"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/GREEN" />
+            <Button
+                android:id="@+id/PURPLE"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:background="#BF3EFF"
+                android:onClick="ButtonClick"
+                android:text="@string/purple"
+                android:textSize="20sp"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/YELLOW" />
+            <Button
+                android:id="@+id/BLACK"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:background="#0F0F0F"
+                android:onClick="ButtonClick"
+                android:text="@string/black"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/PURPLE" />
+            <Button
+                android:id="@+id/ERASER"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:background="#C6E2FF"
+                android:onClick="ButtonClick"
+                android:text="@string/eraser"
+                android:textSize="15sp"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/BLACK" />
+            <Button
+                android:id="@+id/RESET"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="#FFE1FF"
+                android:onClick="ButtonClick"
+                android:text="@string/reset"
+                style="?android:attr/buttonStyle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ERASER" />
+        </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ima"
+        android:layout_width="420dp"
+        android:layout_height="750dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/words"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BUTTON_AREA"
+        app:srcCompat="@android:drawable/screen_background_light" />
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+
+

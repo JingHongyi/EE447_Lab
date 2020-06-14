@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DrawLine</string>
+    <string name="hello">尽情画画吧！</string>
+    <string name="red">红</string>
+    <string name="blue">蓝</string>
+    <string name="green">绿</string>
+    <string name="yellow">黄</string>
+    <string name="purple">紫</string>
+    <string name="eraser">橡皮擦</string>
+    <string name="reset">重置</string>
+    <string name="black">黑</string>
+    <string name="words">Draw anthing you want!</string>
+</resources>
